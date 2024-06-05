@@ -41,7 +41,7 @@ if response.status_code == 200:
         # Get the content disposition header to extract the filename
     filename = f"data2.csv"
         # Specify the directory to save the file
-    save_directory = "/Users/paraggupta/Desktop/IDEA R project/upload"
+    save_directory = "/Users/paraggupta/Desktop/projects/CO2_ForecastAnalysis/data"
         
         # Create the directory if it doesn't exist
     if not os.path.exists(save_directory):
